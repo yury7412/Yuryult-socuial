@@ -142,7 +142,10 @@ input:focus{
 }
 
 @media screen and (max-width:480px){
-    
+    .main {
+     display: flex;
+     justify-content: center;
+    }
     section{
         padding: 16px 16px;
     }
